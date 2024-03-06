@@ -8,7 +8,7 @@ public abstract class Pokemon {
 	protected String gender;
 	protected int season;
 
-	abstract protected void attackWithTackle();
-	abstract protected void attackWithScratch();
-	abstract protected void attackWithBite();
+	protected abstract void attackWithTackle();
+	protected abstract void attackWithScratch();
+	protected abstract void attackWithBite();
 }

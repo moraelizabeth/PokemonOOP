@@ -6,19 +6,21 @@ public class Pikachu extends Pokemon implements Electric{
 
 	String name = "Pikachu"; 
 	
+	public Pikachu() {}
+	
 	@Override
 	protected void attackWithTackle() {
-		System.out.println("I am " + name + " and this is my attack: attackWithTackle");
+		System.out.println("I'm " + name + " and this is my attack: attackWithTackle");
 	}
 
 	@Override
 	protected void attackWithScratch() {
-		System.out.println("I am " + name + " and this is my attack: attackWithScratch");
+		System.out.println("I'm " + name + " and this is my attack: attackWithScratch");
 	}
 
 	@Override
 	protected void attackWithBite() {
-		System.out.println("I am " + name + " and this is my attack: attackWithBite");
+		System.out.println("I'm " + name + " and this is my attack: attackWithBite");
 	}
 
 	@Override

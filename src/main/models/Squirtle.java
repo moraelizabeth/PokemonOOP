@@ -6,19 +6,21 @@ public class Squirtle extends Pokemon implements Water{
 
 	String name = "Squirtle"; 
 	
+	public Squirtle() {}
+	
 	@Override
-	protected void attackWithTackle() {
-		System.out.println("I am " + name + " and this is my attack: attackWithTackle");
+	public void attackWithTackle() {
+		System.out.println("I'm " + name + " and this is my attack: attackWithTackle");
+	}
+	
+	@Override
+	public void attackWithScratch() {
+		System.out.println("I'm " + name + " and this is my attack: attackWithScratch");
 	}
 
 	@Override
-	protected void attackWithScratch() {
-		System.out.println("I am " + name + " and this is my attack: attackWithScratch");
-	}
-
-	@Override
-	protected void attackWithBite() {
-		System.out.println("I am " + name + " and this is my attack: attackWithBite");
+	public void attackWithBite() {
+		System.out.println("I'm " + name + " and this is my attack: attackWithBite");
 	}
 
 	@Override
