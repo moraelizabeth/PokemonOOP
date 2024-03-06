@@ -1,5 +1,7 @@
 package main.interfaces;
 
-public class Fire {
+public interface Fire {
 
+	public void flamethrower();
+	public void fireFist();
 }

@@ -1,5 +1,7 @@
 package main.interfaces;
 
-public class Water {
+public interface Water {
 
+	public void hydropump();
+	public void attackBubbles();
 }
